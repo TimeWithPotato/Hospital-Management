@@ -103,4 +103,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Developed by [Najifa](https://github.com/najifa) & [Arif](https://github.com/TimeWithPotato).
+Developed by [Najifa](https://github.com/najifatabassum01) & [Arif](https://github.com/TimeWithPotato).
