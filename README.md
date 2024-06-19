@@ -45,7 +45,7 @@ This project is a comprehensive Hospital Management System that manages the oper
 ### Installation
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/hospital-management-system.git
+   git clone https://github.com/TimeWithPotato/hospital-management-system.git
    ```
 2. **Navigate to the project directory:**
    ```sh
