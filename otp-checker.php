@@ -12,7 +12,7 @@ function generateMail($send_to,$subject,$body){
     $mail->Port = 587;
 
     $mail->Username = "mohammed.mainuddin@northsouth.edu";
-    $mail->Password = "gunb kwvl ppsi qize";
+    $mail->Password = "gunb; // user your own app password 
     $mail->setFrom("mohammed.mainuddin@northsouth.edu", "Arif Mainuddin");
     $mail->Subject = $subject;
     $mail->Body = $body;
