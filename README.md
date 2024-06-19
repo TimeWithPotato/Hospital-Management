@@ -1,6 +1,6 @@
 # Hospital Management System
 
-This project is a comprehensive Hospital Management System that manages the operations of a hospital. It includes features for handling doctor, patient, prescription, admission, billing, and installment details. The system supports two types of patients: general patients who come for checkups, and patients who require admission.
+This project is a comprehensive Hospital Management System that manages the operations of a hospital. I have used the XAMPP as database. It includes features for handling doctor, patient, prescription, admission, billing, and installment details. The system supports two types of patients: general patients who come for checkups, and patients who require admission.
 
 ## Features
 
@@ -56,7 +56,7 @@ This project is a comprehensive Hospital Management System that manages the oper
    composer install
    ```
 4. **Set up the database:**
-   - Import the provided SQL file (`database.sql`) into your MySQL database.
+   - Import the provided SQL file (`hospital_management (6).sql`) into your MySQL database.
    - Update the `connect.php` file with your database credentials.
 
 5. **Start the server:**
