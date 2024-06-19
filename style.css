@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    top:5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+nav{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.error-section{
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 99999;
+    width: 50%;
+    transform: translate(-50%,-50%);
+}
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 50%;
+    padding: 20px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+#adm-id-container{
+    display: none;
+}
+#ward-id-container{
+    display: none;
+}
+#cabin-rent-container{
+    display: none;
+}
+#cabin-id-container{
+    display: none;
+}
+#date-of-adm-container{
+    display: none;;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav-body{
+    background-color: rgb(115, 159, 166);;
+}
+.doctor{
+    color:blue;
+}
+.nav-font{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.form-control.search-expanded:focus {
+    transform: scale(1.5);
+    translate: -60px 20px ;
+    transition:transform 0.3s ease, translate 0.3s ease; /* Smooth transition for resizing */
+}
+.form-control.search-expanded::-webkit-search-cancel-button{
+    display: none;
+}
+.carousel-container{
+    margin-top:100px;
+}
+.carousel-article {
+    margin-top: 7.5rem;
+}
+.carousel-article h1 {
+    margin-top: -5.5rem;
+}
+.carousel-button {
+    background:linear-gradient(#69a36e,#438058); 
+    color:white; 
+    padding:5px 25px 5px 25px; 
+    margin-top: 5.5em; 
+    margin-left: 10.5em;
+}
+.footer-position {
+    position:fixed; 
+    bottom:1.5em;
+}
+@media only screen and (max-width:768px){
+    .carousel-button {
+        background: linear-gradient(#69a36e,#438058);
+        padding: .1rem 3.5rem .1rem 3.5rem;
+        margin-left: 3.7rem;
+    }
+    .carousel-button a{
+        text-wrap: nowrap;
+    }
+}
+@media only screen and (max-width:992px) and (min-width:769px) {
+    .footer-position{
+        position: static;
+        margin-top:23.5rem;
+    }
+    .carousel-button {
+        background: linear-gradient(#69a36e,#438058);
+        padding: .1rem 5rem .1rem 5rem;
+        margin-left: 7rem;
+    }
+    .carousel-button a{
+        text-wrap: nowrap;
+    }
+}
+
+
