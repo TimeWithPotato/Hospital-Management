@@ -85,21 +85,18 @@ This project is a comprehensive Hospital Management System that manages the oper
 ## Contributing
 1. **Fork the repository.**
 2. **Create a new branch:**
-   ```sh
+   ```bash
    git checkout -b feature-branch
    ```
 3. **Commit your changes:**
-   ```sh
+   ```bash
    git commit -m 'Add some feature'
    ```
 4. **Push to the branch:**
-   ```sh
+   ```bash
    git push origin feature-branch
    ```
 5. **Create a pull request.**
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
